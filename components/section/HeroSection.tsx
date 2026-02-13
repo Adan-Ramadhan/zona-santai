@@ -1,5 +1,6 @@
 import { FaRegArrowAltCircleRight } from "react-icons/fa";
 import { Button } from "../ui/button";
+import Link from "next/link";
 export default function HeroSection() {
   return (
     <section className="w-full lg:w-1/2 md:pt-36 min-h-full pt-20 px-4 xl:px-36 mb-20">
@@ -20,8 +21,10 @@ export default function HeroSection() {
           lovers and otakus alike.
         </p>
         <div className="w-full md:w-1/4 flex justify-between items-center">
-          <Button className="bg-[#7c3aed] hover:bg-[#6d28d9] text-white">
-            Explore Now <FaRegArrowAltCircleRight />
+          <Button asChild className="bg-[#7c3aed] hover:bg-[#6d28d9] text-white">
+            <Link href={"/explore"}>
+              Explore Now <FaRegArrowAltCircleRight />
+            </Link>
           </Button>
         </div>
       </div>
