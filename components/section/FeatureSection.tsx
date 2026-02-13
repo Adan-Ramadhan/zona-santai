@@ -45,7 +45,7 @@ const features: Feature[] = [
 
 export default function FeatureSection() {
   return (
-    <section className="w-full px-4 xl:px-36  min-h-full mb-20">
+    <section className="w-full px-4 xl:px-36  min-h-full my-36">
         <ul className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {features.length > 0 &&
             features.map((f, i) => {

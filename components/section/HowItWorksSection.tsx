@@ -33,7 +33,7 @@ const htwItem: HtwItem[] = [
 
 export default function HowItWorksSection() {
   return (
-    <section className="w-full px-4 xl:px-36  min-h-full mb-20">
+    <section className="w-full px-4 xl:px-36  min-h-full my-36">
       <h2 className="font-bold text-4xl text-center mb-16">How It Works</h2>
 
       <ul className="grid grid-cols-1 md:grid-cols-3 gap-8 ">
